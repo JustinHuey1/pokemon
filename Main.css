@@ -1,0 +1,76 @@
+/*start*/
+
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.rules{
+    display:flex;
+    justify-content: center;
+    
+}
+#rule{
+    height: 100px;
+    width: 450px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.startTeam{
+    display: flex;
+    justify-content: center;
+}
+
+#rulebook{
+    justify-content: center;
+}
+
+
+#start{
+    height: 100px;
+    width: 450px;
+    font-size: 50px;
+}
+
+#team{
+    height: 100px;
+    width: 450px;
+    font-size: 50px;
+}
+
+
+/* Team */
+
+.team{
+    display: flex;
+    justify-content: center;
+}
+
+.pokemonInfo{
+    width: 25%;
+}
+
+.movesInfo{
+    width: 75%;
+}
+
+.teamImage{
+    width: 100%;
+}
+
+.img1{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: solid black 1px;
+}
+
+/* Battle */
