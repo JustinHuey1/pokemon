@@ -13,24 +13,28 @@ $("#team").click(function(){
 
 
 $("#rule").click(function(){
-    $(".")
+
 });
 
 // Team Page//
 $("#findPokemon").click(function(){
-    var searchTerm = $("#searchTerm").val();
-    var apiUrl = `https://pokeapi.co/api/v2/pokemon/${searchTerm}/`;
-    $.ajax({
-        url: apiUrl,
-        method: "GET",
-        success: function(response){
-            console.log("hello");
-            console.log(response.sprites.front_default);
-            $("body").append(`<img src="${response.sprites.front_default}">`);
-        }
-    });
+    $(".a").hide();
+    // var searchTerm = $("#searchTerm").val();
+    // var apiUrl = `https://pokeapi.co/api/v2/pokemon/${searchTerm}/`;
+    // $(".picture").html("");
+    // $.ajax({
+    //     url: apiUrl,
+    //     method: "GET",
+    //     success: function(response){
+    //         // $(".picture").append(`<img class = "pokeImg" src="${response.sprites.front_default}">`);
+    //         // $(".pokeAdd").append('<button id = "choose">Add Pokemon to team</button>');
+    //     }
+    // });
 });
 
+$("#choose").click(function(){
+    
+}
 
 // Battle Page//
 $("#ability1").click(function(){
