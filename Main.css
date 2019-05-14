@@ -1,22 +1,44 @@
 /*start*/
 
-
 .title{
     display: flex;
     justify-content: center;
 }
 
+.lol{
+    display: flex;
+    flex-direction: column;
+}
+
 .rules{
     display:flex;
     justify-content: center;
-    
+    width: 100%;
 }
+
+#rulebook{
+    border: solid black 5px;
+    height: 150px;
+    flex-direction: column;
+}
+
 #rule{
     height: 100px;
     width: 450px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
     font-size: 50px;
+
+}
+
+.realRules{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.wasteSpace{
+    width: 25%;
 }
 
 .content{
@@ -76,6 +98,7 @@
 
 #pokemon1{
     display: flex;
+    flex-direction: column;
     position: relative;
     width: 50%;
     height: 33.3%;
@@ -84,6 +107,7 @@
 
 #pokemon2{
     display: flex;
+    flex-direction: column;
     position: relative;
     width: 50%;
     height: 33.3%;
@@ -92,6 +116,7 @@
 
 #pokemon3{
     display: flex;
+    flex-direction: column;
     position: relative;
     width: 50%;
     height: 33%;
@@ -100,6 +125,7 @@
 
 #pokemon4{
     display: flex;
+    flex-direction: column;
     position: relative;
     bottom: 406px;
     left: 50%;
@@ -110,6 +136,7 @@
 
 #pokemon5{
     display: flex;
+    flex-direction: column;
     position: relative;
     bottom: 406px;
     left: 50%;
@@ -120,12 +147,27 @@
 
 #pokemon6{
     display: flex;
+    flex-direction: column;
     position: relative;
     bottom: 408px;
     left: 50%;
     width: 50%;
     height: 33.3%;
     border: solid black 1px;
+}
+
+.top{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+}
+
+.bot{
+    display: flex;
+    width: 100%;
+    height: 50%;
+   justify-content: center;
 }
 
 .picture{
@@ -140,6 +182,14 @@
     width: 500px;
     height: 468px;
     margin-left: 80px;
+}
+
+.pokeName{
+    position: relative;
+    top: 410px;
+    right: 280px;
+    text-decoration: underline;
+    text-decoration: bold;
 }
 
 #choose{
@@ -157,7 +207,35 @@
     width: 25%;
 }
 
-.pokeAbility{
+#ability{
     border: solid black 5px;
 }
+
+/* Scene Before Battle */
+
+.yourPokeTeam{
+    display: flex;
+    justify-content: center;
+    border: solid black 5px;
+    width: 100%;
+    height: 500px;
+}
+
+.battleTime{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 /* Battle */
+progress{
+    width: 50%;
+    background: blue;
+}
+
+.bottom{
+    position: relative;
+    bottom: 20px;
+    border: solid black 2px;
+    
+}

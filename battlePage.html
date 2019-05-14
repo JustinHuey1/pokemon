@@ -7,15 +7,35 @@
         
     </Title>
     <body>
-        <p id="healthBarOpp"></p>
-        <img id="imageOpp">
-        <img id="healthBarPlay">
-        <p id="imagePlay"></p>
+        <div class = "space">
+            <div class = "opp"><p>Opponent</p><progress id="healthBarOpp" value="100" max="100"></progress>
+            
+            <div>
+                <img id="imageOpp" src="">
+            </div>
+            <div>
+               <img id="imagePlay" src=""> 
+            </div>
+            <div><p>Player</p><progress id="healthBarPlay" value="100" max="100"></progress>
+        </div>
+        </div>
         <div>
-            <button id = "ability1"> </button>
+            <button id = "attack">Attack</button>
         </div>
         <div>
             <button id = "teamSelect">Team</button>
+        </div>
+        
+        <div id = "Home">
+            <button id = "homePage"><a href = "startPage.html">Back</a></button>
+        </div>
+        <div class = "bottom">
+            <div class = "moves">
+                
+            </div>
+        </div>
+        <div>
+            <p id="counter"></p>
         </div>
     </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
